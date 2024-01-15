@@ -1,0 +1,506 @@
+:root {
+    --yasil: #54d154
+}
+header {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    text-align: center;
+    height: 100vh;
+    padding: 12px;
+    background: url('../img/headerbg.webp') center/cover;
+}
+
+#menu li a {
+    font: bold 1em 'Proxima Nova', sans-serif;
+    color: #fff;
+    padding: 5px 0;
+}
+h1 {
+    font: bold 2em 'Montserrat';
+    color: #fff;
+    text-transform: capitalize;
+}
+h2 {
+    font: 1.25em 'Montserrat';
+    text-transform: uppercase;
+    letter-spacing: 4px;
+    color: #828181;
+}
+h3 {
+    font: bold 1.5em 'Proxima Nova';
+    color: #828181;
+    padding: 18px 0;
+}
+h4 {
+    font: 1em "Proxima Nova";
+    color: #fff;
+}
+h5 {
+    font: 1em "Montserrat";
+    letter-spacing: 3px;
+    color: #ddd;
+    text-align: center;
+    padding-bottom: 5px;
+}
+h6 {
+    font: 1em 'Myriad Pro';
+    color: #b7b3b3;
+}
+main > section hr { 
+    width: 43px; 
+    margin: 10px auto;
+    border: none;
+    border-top: 2px solid;
+}
+main > section.bgyasil hr {
+   color: #1f7b1f;
+}
+main > section.bgag hr ,main > section.bgboz hr{
+    color: #818181;
+}
+#col3 p {
+    font: 0.9em "Montserrat";
+    color: #828181;
+    padding-bottom: 25px;
+}
+#testimonial p {
+    font: .8em "Proxima Nova";
+    color: #444;
+    text-align: center;
+    max-width: 485px;
+}
+.bgyasil h2 { color: #207b20 }
+.bgyasil h6 { color: #2b9b2b }
+
+#title button {
+    background: #53d153;
+    padding: 10px 24px;
+    border-radius: 25px;
+    font: 1em 'Proxima Nova';
+    color: #fff;
+    border: none;
+    text-transform: uppercase;
+}
+#search { display: flex }
+#search input, #search button {
+    background: #ffffffcc;
+    border: none;
+    outline: none;
+    font: 1em 'Myriad Pro', sans-serif;
+    color: #111;
+    padding: 6px 10px;
+}
+#search input { border-radius: 1em 0 0 1em; } 
+#search button { border-radius: 0 1em 1em 0; } 
+#search button img { height: 1em; } 
+#scroll a {
+    background: #ffffffb3;
+    font: 1em 'Proxima Nova';
+    color: #111;
+    padding: 6px 11px;
+    border-radius: 15px;
+}
+
+.bgag { background-color: #fff; }
+.bgyasil { background-color: var(--yasil); }
+.bgboz { background-color: #f1f1f1; }
+
+main > section { padding: 36px 0; text-align: center;}
+
+#col3 {padding: 55px 0 }
+#col3 article {
+    text-align: center;
+    padding: 15px;
+}
+.icon3 {
+    width: 142px;
+    height: 142px;
+    border-radius: 28px;
+    background: #e0f3e0;
+    display: flex;
+    margin: auto
+}
+.icon3 i { 
+    font-size: 3em;
+    color: var(--yasil);
+    margin: auto;
+}
+.btn3 {
+    font: bold  1em "Proxima Nova";
+    color: #fff;
+    background: #53d153;
+    padding: 9px 19px;
+    border-radius: 15px;
+}
+#btn4 { display: flex; justify-content: center; padding: 57px 0}
+#btn4 button {
+    border: 1px solid #2b9b2b;
+    padding: 6px 8px;
+    font: 1em 'Proxima Nova';
+    background: #fff; 
+    color: #2b9b2b;
+}
+#btn4 button:first-child { border-radius: 18px 0 0 18px }
+#btn4 button:last-child { border-radius: 0 18px 18px 0 }
+#btn4 button.active, #btn4 button:hover { background: #2b9b2b; color: #fff } 
+#more {
+   font: 1.1em "Proxima Nova";
+   color: #fff;
+   background: #2b9b2b;
+   padding: 12px 17px;
+   border-radius: 20px;
+   border: none;
+   margin: 40px 0 51px 0;
+}
+#client {
+    font: 1.1em "Proxima Nova";
+    color: #a59d9d;
+    background: #dddcdc;
+    border: none;
+    border-radius: 22px;
+    padding: 12px 20px;
+    margin: 10px 0 20px 0;
+}
+#images img { 
+    height: 50vh;
+    width: 100%;
+    object-fit: cover;
+    padding: 15px;
+}
+#testimonial {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 65px 0 17px 0;
+}
+#testimonial i {
+    color: #dfdfdf;
+    font-size: 1.7em;
+    height: 10px;
+}
+#Ceo {
+    display: flex;
+    justify-content: center;
+}
+#Ceo i {
+    font-size: 2em;
+    color: #dfdfdf;
+}
+#Ceo div {
+    padding-left: 8px;
+}
+#Ceo p.herp {
+    font: 1em "Proxima Nova";
+    color: #444;
+    text-align: left;
+}
+#Ceo p {
+    font: bold 1em "Proxima Nova";
+    color: #ccc; 
+}
+#logos img {
+    padding: 35px;
+}
+#team .team1 {
+    
+    padding-top: 50px;
+}
+#team img {
+    width: 125px;
+    height: 125px;
+    border-radius: 50%;
+    object-fit: contain;
+    background: #fff;
+}
+#team hr {
+    width: 1px;
+    height: 77px;
+    border: none;
+    border-right: 1px solid ;
+}
+#icons {
+    width: 84px;
+    height: 28px;
+    border-radius: 14px;
+    background: #c5e9c5;
+    margin: auto;
+    color: #fff;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin-top: 9px;
+}
+#icons .tic {
+    width: 20px;
+    height: 20px;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.tic i {
+    font-size: .8em;
+}
+#lin {
+    background: #00abed;
+}
+#fb {
+    background: #1d52aa;
+}
+#x {
+    background: black;
+}
+#line {
+    background: #3eba3e;
+    margin-top: 60px;
+}
+main > section.bgyasil {
+    padding-bottom: 0;
+}
+#work {
+    font: 1.2em "Proxima Nova";
+    color: #fff;
+    background: #53d153;
+    border: none;
+    border-radius: 22px;
+    padding: 12px 20px;
+    margin-top: 27px;
+    margin-bottom: 25px;
+    box-shadow: 2px 1px 3px #38a838;
+}
+#ft {
+    background: #333; 
+}
+#ft .row {
+    padding: 28px 0  30px 0;
+}
+#ft .col {
+    padding: 0 5px  15px 5px;
+}
+#icons.fticons {
+    background: #e6e7e6;
+    margin-top: 22px;
+    margin-bottom: 25px;
+}
+#ft hr {
+    width: 30px;
+    border: none;
+    border-top: 2px solid #ddd;
+    margin: auto;
+}
+#ft p {
+    font: 1em "Proxima Nova";
+    color: #ccc;
+    max-width: 320px;
+    margin: auto;
+    text-align: center;
+    padding-top: 20px;
+}
+#posts img {
+    width: 53px;
+    height: 53px;
+    object-fit: cover;
+}
+.post {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.post {
+    padding: 6px 0;
+}
+#first {
+    padding-top: 17px;
+}
+#posts p {
+    font: 1em 'Montserrat';
+    color: #ccc;
+    padding: initial;
+}
+#magazine {
+    padding: 0 0 0 6px;
+}
+#magazine p.second {
+    font: .8em 'Montserrat';
+    color: #fff;
+    text-align: initial; 
+    padding: 4px 6px;
+    border-radius: 2px;
+    display: inline-block; 
+    margin-top: 5px;
+}
+p#mag {
+    background: #53d153;
+}
+#ui {
+    background: #ffba00;  
+}
+#photo {
+   background: #089cea;
+}
+#book {
+   background: #f34c03;
+}
+#ui2 {
+   background: #ffba00;
+}
+#contact p {
+    font: .9em 'Montserrat';
+    color: #ccc;
+
+}
+#form {
+    display: flex;
+    flex-direction: column;
+    max-width: 320px;
+    width: 100%;
+    margin: auto;
+    padding-top: 23px;
+}
+input,textarea {
+    background: #444;
+    padding: 9px 0 0 13px;
+    margin-bottom: 2px;
+    border: none;
+    outline: none;
+    width: 100%;
+}
+#name {
+    border-radius: 2px 2px 0 0 ;
+}
+#send {
+    color: #fff;
+    background: #2b9b2b;
+    border: none;
+    border-radius: 0 0 2px 2px;
+    padding: 9px 0;
+}
+#ft2 {
+    background: #212121;
+    padding-top: 25px;
+}
+.ft2 {
+    padding: 24px 0 13px 0;
+}
+.ft2 img {
+    display: block;
+    margin: auto;
+    padding: 0 0 15px 0;
+}
+#ny {
+    width: 100%;
+    max-width: 337px;
+}
+#ft2 h5 {
+    color: #101010;
+}
+#ft2 hr {
+    border: none;
+    border-top: 2px solid #0f0f0f;
+    width: 30px;
+    margin: auto;
+}
+#ft2 p {
+    font: 1em 'Montserrat';
+    color: #fff;
+    text-align: center;
+    background: #111;
+    padding: 11px 0 9px 0;
+}
+@media only screen and (min-width: 768px) {
+    h1 { font-size: 3.4em;}
+    #testimonial p {
+        font-size: 1em;
+    }
+    nav { 
+        display: flex;
+        width: 100%;
+        justify-content: space-between;
+    }
+    #menu { 
+        order: -1; 
+        display: flex;
+        margin: -2px;
+    }
+    #menu li { padding: 0 12px }
+    #menu li a.active, #menu li a:hover { border-top: 5px solid var(--yasil) }
+    #title button {
+        padding: 14px 24px;
+        font-size: 1.4em;
+    }
+    #col3 { display: flex; justify-content: center;}
+    #col3 article { max-width: 350px; }
+    #btn4 button {
+        padding: 6px 16px;
+    }
+    #images { 
+        max-width: 1000px;
+        margin: auto;
+        display: flex;
+        justify-content: center;
+        flex-wrap: wrap;
+    } 
+    #images img { 
+        width: 180px;
+        height: 180px;
+    } 
+    #testimonial {
+        justify-content: space-between;
+        max-width: 755px;
+        margin: auto;
+    }
+    #logos {
+        display: flex;
+        flex-wrap: wrap;
+        max-width: 1000px;
+        margin: auto;
+        padding-top: 35px;
+        justify-content: center;
+    }
+    #logos .logo {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        width: 250px;
+    }
+    #logos .logo:hover{
+        background: #dee2ed;
+        border-radius: 10px;
+        transition-duration: 1s;
+    }
+    #logos img {
+        padding: 45px;
+        object-fit: contain;
+    }
+    #team {
+        max-width: 1000px;
+        margin: auto;
+        display: flex;
+        justify-content: space-around;
+    }
+    #ft .row {
+        max-width: 1200px;
+        margin: auto;
+        display: flex;
+        
+    }
+    #ft .col {
+       width: 33.33%;
+       padding: 0 10px;
+    }
+    .ft2 {
+        display: flex;
+        justify-content: space-between;
+        max-width: 980px;
+        margin: auto;
+        
+    }
+    .ft2 img {
+        margin: initial;
+    }
+    #ny {
+        width: initial;
+    }
+}
